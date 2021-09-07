@@ -1,0 +1,9 @@
+name: 'Shopify CLI theme deploy'
+author: 'Pierre Grimaud'
+description: 'Deploy Shopify theme with Shopify CLI'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'shopping-bag'
+  color: 'green'
